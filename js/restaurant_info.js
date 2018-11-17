@@ -1,7 +1,7 @@
 let restaurant;
 var newMap;
 
-//Register service worker
+
 DBHelper.registerServiceWorker();
 
 /**
