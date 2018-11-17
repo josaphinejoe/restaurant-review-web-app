@@ -80,7 +80,7 @@ initMap = () => {
         scrollWheelZoom: false
     });
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.jpg70?access_token={mapboxToken}', {
-        mapboxToken: 'pk.eyJ1IjoiYWxleGFuZHJpIiwiYSI6ImNqaW15aGtjczA5Y2EzcG56MG5xcnFvaW0ifQ.Gg23g58sb7PpKdVsAZaWgQ',
+        mapboxToken: 'pk.eyJ1Ijoiam9zYXBoaW5lam9lIiwiYSI6ImNqb2Z5MDVwaTA5Y2MzcXBpeHhwb3FlNXcifQ.tPqqoFU-E7VF3yyjZxYB3A',
         maxZoom: 18,
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
             '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
@@ -204,13 +204,3 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     });
 
 }
-/* addMarkersToMap = (restaurants = self.restaurants) => {
-  restaurants.forEach(restaurant => {
-    // Add marker to the map
-    const marker = DBHelper.mapMarkerForRestaurant(restaurant, self.map);
-    google.maps.event.addListener(marker, 'click', () => {
-      window.location.href = marker.url
-    });
-    self.markers.push(marker);
-  });
-} */
