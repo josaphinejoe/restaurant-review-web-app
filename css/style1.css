@@ -1,0 +1,41 @@
+@media screen and (min-width: 600px) {
+    #restaurant-img {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .inside #map-container {
+        grid-area: map;
+    }
+    #restaurant-container {
+        grid-area: restaurant;
+    }
+    #reviews-container {
+        grid-area: reviews;
+    }
+    .inside #maincontent {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "restaurant map" "reviews map";
+    }
+    .inside #map {
+        background-color: rgb(204, 204, 204);
+        height: 100%;
+        width: 100%;
+    }
+    #restaurant-img {
+        width: 98%;
+    }
+}
+
+@media screen and (min-width: 1450px) {
+    body {
+        max-width: 1460px;
+        margin: 0 auto 0 auto;
+        background-image: url("../img/rest.jpg");
+    }
+}
