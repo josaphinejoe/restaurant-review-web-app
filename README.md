@@ -2,33 +2,15 @@
 
 ## Introduction.
 
-This is a project for the Udacity Front-End Web Developer
-Nanodegree program. The objective of the project is to 
-take an app that is not working very well and make it fully
-responsive and accessible to users for all type of devices. 
-App should also be able to work when network connection
-is down or poor.
+This project is meant for the udacity front-end web developer nanodegree program. The main objective of this project is to re-develop an existing app. For this we have to choose an app that is not working very well and reconstruct it fully.So that now the app is responsive and accessible to users for all type of devices. The app should be able to work even though the network connection is down or poor.
 
-## App Description.
+## About App.
+The app holds the information of a wide range of cusines. Acoording to the user's selections, respective suggestions appear.
+The user can choose the best from these alternatives.
+Once the user select a specific restaurant, he/she recieves the basic informations regarding the restaurant such as address, cusine, opening and closing, other users reviews and rating.  
 
-User can select from a range of cuisines and neighbourgoods 
-and a number of restaurants suggestions appear according to 
-selections. Uppon selecting a specific restaurant user receives
-info for the restaurant such as address, cuisine, oppening hours,
-other user reviews and ratings. 
 
-## Running the App
 
-1. Clone the GitHub repository localy.
-
-2. Go into the repository folder and switch comments in code of
-
-	1. js/dbhelper.js
-	2. index.html
-	3. restaurant.html
-
-files in order to be able to run app in local server. The code
-was modified in order to run the app in GitHub pages.
 
 3. Project needs a local server to run. 
 	1. Open a bash command line window in the repository folder. 
@@ -41,12 +23,6 @@ visit the site: `http://localhost:8000`.
 5. App is currently running on Github Pages. Change comments
 in index.html, restaurant.html and dbhelper.js to run localy.
 
-## Dependencies
 
-The starter code for this project is based on the Udacity repository
-(https://github.com/udacity/mws-restaurant-stage-1)
 
-### Leaflet.js and Mapbox:
-
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
 
