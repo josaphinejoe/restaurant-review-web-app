@@ -21,7 +21,6 @@ a:focus {
 }
 
 
-/* --------------------Create CSS grid-------------------- */
 
 .header-grid {
     grid-area: header;
@@ -45,7 +44,7 @@ a:focus {
 }
 
 
-/* --------------------Navigation/Header-------------------- */
+
 
 nav {
     min-height: 80px;
@@ -66,7 +65,7 @@ nav h1 a {
 }
 
 
-/* --------------------Main-------------------- */
+
 
 #maincontent {
     background-color: #15b815;
@@ -74,7 +73,7 @@ nav h1 a {
 }
 
 
-/* --------------------Main/Map-------------------- */
+
 
 #map {
     min-height: 400px;
@@ -82,7 +81,7 @@ nav h1 a {
 }
 
 
-/* --------------------Main/Filters-------------------- */
+
 
 .filter-options {
     min-height: 50px;
@@ -113,7 +112,6 @@ nav h1 a {
 }
 
 
-/* --------------------Main/Restaurants-------------------- */
 
 #restaurants-list {
     background-color: #d60d0d;
@@ -175,7 +173,6 @@ nav h1 a {
 }
 
 
-/* --------------------Footer-------------------- */
 
 #footer {
     background-color: #080101;
