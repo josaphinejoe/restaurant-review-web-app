@@ -1,6 +1,4 @@
-/**
- * Common database helper functions.
- */
+
 class DBHelper {
     // Create new class to register service worker
     static registerServiceWorker() {
@@ -87,9 +85,7 @@ class DBHelper {
         });
     }
 
-    /**
-     * Fetch restaurants by a neighborhood with proper error handling.
-     */
+    
     static fetchRestaurantByNeighborhood(neighborhood, callback) {
         // Fetch all restaurants
         DBHelper.fetchRestaurants((error, restaurants) => {
@@ -189,15 +185,5 @@ class DBHelper {
             marker.addTo(newMap);
             return marker;
         }
-        /* static mapMarkerForRestaurant(restaurant, map) {
-          const marker = new google.maps.Marker({
-            position: restaurant.latlng,
-            title: restaurant.name,
-            url: DBHelper.urlForRestaurant(restaurant),
-            map: map,
-            animation: google.maps.Animation.DROP}
-          );
-          return marker;
-        } */
-
+       
 }
